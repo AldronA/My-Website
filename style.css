@@ -1,0 +1,54 @@
+.background{
+    background-color: #222831;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: "Bangers", system-ui;;
+    color: #dfd0b8 !important;
+    letter-spacing: 0.1em;
+}
+p, .text{font-family: "Roboto", sans-serif;
+    color: #dfd0b8;
+    text-align: justify;
+}
+
+.custom-nav .nav-link{
+    font-family: "Poppins", sans-serif;
+    color:#948979;
+}
+.custom-nav .nav-link:hover {
+    background-color: #393e46;
+    color: #ffffff;
+  }
+.custom-card{
+  background-color: #393e46;
+}
+  .custom-image {
+    border-radius: 20px;              
+    background-color: #393e46;        
+    padding: 10px;                    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .custom-image:hover {
+    transform: scale(1.03);
+  }
+  
+  .custom-skill{
+    background-color: #393e46;
+    border-radius: 5px;
+    text-align: center ;
+    padding: 5px;
+    font-size:1.2em;
+  }
+
+.icon-style{
+  font-size: 1.5rem;
+}
